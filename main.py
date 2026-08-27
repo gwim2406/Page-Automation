@@ -26,6 +26,9 @@ FB_PAGE_ID = os.getenv("FB_PAGE_ID")
 IG_USER_ID = os.getenv("IG_USER_ID")
 META_PAGE_TOKEN = os.getenv("META_PAGE_TOKEN")
 
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
+
 
 META_API_VERSION = "v25.0"
 
