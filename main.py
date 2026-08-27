@@ -355,7 +355,7 @@ def upload_to_cloudinary(filepath):
     print("☁️ Uploading final post to Cloudinary CDN...")
     res = cloudinary.uploader.upload(filepath)
     url = res.get("secure_url")
-    print(f"🔗 Public CDN URL: {url}")
+    # print(f"🔗 Public CDN URL: {url}")
     return url
 
 # ==============================================================================
