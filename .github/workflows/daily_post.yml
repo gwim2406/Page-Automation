@@ -2,8 +2,8 @@ name: Daily Quote Publisher
 
 on:
   schedule:
-    - cron: '30 0,12 * * *' # Runs daily at 12:30 AM and 12:30 PM UTC
-  workflow_dispatch: # Allows manual trigger for testing
+    - cron: '45 8,12 * * *' # Runs daily at 12:30 AM and 12:30 PM UTC
+  # workflow_dispatch: # Allows manual trigger for testing
 
 jobs:
   publish:
