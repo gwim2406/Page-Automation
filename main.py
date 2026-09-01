@@ -107,7 +107,7 @@ def generate_quote_data():
         "You are a motivational quote generator. Generate ONE original motivational quote for today. "
         "Requirements: The quote must be inspiring, meaningful, and suitable for a general audience. "
         "Today's quote should be based on the theme of: " + random.choice(quote_themes) + ". "
-        "It should feel natural and emotionally powerful. Keep it concise: 1-2 sentences maximum. "
+        "It should feel natural and emotionally powerful. Keep it concise: 1 sentence maximum. "
         "Do not use clichés unless you give them a fresh and original expression. Do not mention today's date. "
         "Do not include emojis. Do not add explanations or commentary. Do not attribute the quote to a real person. "
         "The quote must be substantially different in meaning, wording, and message from all previously generated quotes. "
